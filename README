@@ -1,0 +1,12 @@
+Basic binary regression via logistic regression
+
+Mainly done to familiarize myself with the concept of putting linear (or other) models as neurons
+and deriving the learning rule through the way it is obvious from the graph, i.e.
+
+![equation](http%3A%2F%2Fwww.sciweavers.org%2Ftex2img.php%3Feq%3D%255Cdfrac%257B%255Cpartial%2520E%257D%257B%255Cpartial%2520w_%257Bi%257D%257D%2520%253D%2520%255Cdfrac%257B%255Cpartial%2520E%257D%257B%255Cpartial%2520y%257D%2520%255Cdfrac%257B%255Cpartial%2520y%257D%257B%255Cpartial%2520Z%257D%2520%255Cdfrac%257B%255Cpartial%2520Z%257D%257B%255Cpartial%2520w_%257Bi%257D%257D%26bc%3DWhite%26fc%3DBlack%26im%3Djpg%26fs%3D12%26ff%3Dmodern%26edit%3D0)
+
+where z = b + sum_i (xi*wi) = w^(T)x 
+
+Other functions generate labeled data that is easily linearly separable. How many features in the 
+input vectors is up to the user, but for the two-dimensional case a decision boundary will be plotted
+
